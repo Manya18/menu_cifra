@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <link rel="stylesheet" href="./styles/filter-styles.css">  
-  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="../styles/filter-styles.css">  
+  <link rel="stylesheet" href="../styles/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com"> 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -12,54 +12,55 @@
     <div class="menu">
         <header class="menuFilter-header">
             <button class="menuFilter-header-closeButton">
-                <img src="./images/close.svg">
+                <img src="../images/close.svg">
             </button>
             <h1 class="menu-header-title">Фильтр ВЗН УП</h1>
         </header>
-        <div class="menuFilter-wrapper">
+        <form id="filters-form" class="menuFilter-wrapper">
             <div class="menuFilter-inputGroup">
                 <div class="menuFilter-input">
                     <label class="menuFilter-input-label">Номер ВЗН</label>
-                    <input class="menuFilter-input-input" type="text">
+                    <input class="menuFilter-input-input" type="text" id="numberVZN">
                 </div>
                 <div class="menuFilter-input">
                     <label class="menuFilter-input-label">Отправитель</label>
-                    <input class="menuFilter-input-input" type="text">
+                    <input class="menuFilter-input-input" type="text" id="sender">
                 </div>
                 <div class="menuFilter-input">
                     <label class="menuFilter-input-label">Получатель</label>
-                    <input class="menuFilter-input-input" type="text">
+                    <input class="menuFilter-input-input" type="text" id='receiver'>
                 </div>
                 <div class="menuFilter-input">
                     <label class="menuFilter-input-label">Дата принятия (период)</label>
-                    <input class="menuFilter-input-input" type="text">
+                    <input class="menuFilter-input-input" type="text" id="period">
                 </div>
             </div>
             <div class="menuFilter-buttonGroup">
-                <button class="menuFilter-button blueButton">Поиск</button>
+                <button class="menuFilter-button blueButton" type="submit">Поиск</button>
                 <button class="menuFilter-button outlinedButton">Отмена</button>
             </div>
-        </div>
+        </form>
         <footer class="menu-navFooter">
             <div class="menu-navFooter-item">
                 <div class="menu-navFooter-icon">
-                    <img src="./images/menu.svg">
+                    <img src="../images/menu.svg">
                 </div>
                 <div class="menu-navFooter-title">Меню</div>
             </div>
             <div class="menu-navFooter-item">
                 <div class="menu-navFooter-icon">
-                    <img src="./images/scanner.svg">
+                    <img src="../images/scanner.svg">
                 </div>
                 <div class="menu-navFooter-title">Сканер</div>
             </div>
             <div class="menu-navFooter-item">
                 <div class="menu-navFooter-icon">
-                    <img src="./images/back-arrow.svg">
+                    <img src="../images/back-arrow.svg">
                 </div>
                 <div class="menu-navFooter-title">Назад</div>
             </div>
         </footer>
     </div>
+    <script src="../js/filters.js"></script>
 </body>
 </html>

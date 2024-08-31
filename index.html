@@ -3,140 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <link rel="stylesheet" href="./styles/listVZN-styles.css">  
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com"> 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="menu">
-        <header class="menuListVZN-header">
-            <h1 class="menu-header-title">ВЗН УП (Расход)</h1>
-            <div class="menuListVZN-buttonGroup">
-                <button class="menuListVZN-button blueButton">
-                    <img src="./images/filter.svg">
-                    Поиск
-                </button>
-                <button class="menuListVZN-button blueButton">
-                    <img src="./images/plus.svg">
-                    Создать
-                </button>
-            </div>
+        <header class="menu-header">
+            <h1 class="menu-header-title">Меню</h1>
         </header>
-        <div class="menuListVZN-wrapper">
-            <div class="menuListVZN-item">
-                <div class="menuListVZN-item-title">ВЗН №132313</div>
-                <div class="menuListVZN-item-info">
-                    <div class="menuListVZN-item-info-sender">
-                        <b>Отправитель:</b> Цех 01 / участок Цеха 01
+        <div class="menu-list-wrapper">
+            <ul class="menu-list">
+                <li class="menu-list-item">
+                    <div class="menu-list-item-icon">
+                        <img src="./images/tasks.svg">
                     </div>
-                    <div class="menuListVZN-item-info-recipient">
-                        <b>Получатель:</b> Цех 02 / участок Цеха 02
+                    <a class="menu-list-item-title" href="./pages/menu-tasks.html">Задачи</a>
+                </li>
+                <li class="menu-list-item">
+                    <div class="menu-list-item-icon">
+                        <img src="./images/settings.svg">
                     </div>
-                    <div class="menuListVZN-item-info-date">
-                        <b>Дата выдачи</b> 15.06.2024
+                    <a class="menu-list-item-title" href="./pages/menu-settings.html">Настройки</a>
+                </li>
+                <li class="menu-list-item disabled">
+                    <div class="menu-list-item-icon">
+                        <img src="./images/about-system.svg">
                     </div>
-                </div>
-            </div>
-            <div class="menuListVZN-item">
-                <div class="menuListVZN-item-title">ВЗН №132313</div>
-                <div class="menuListVZN-item-info">
-                    <div class="menuListVZN-item-info-sender">
-                        <b>Отправитель:</b> Цех 01 / участок Цеха 01
-                    </div>
-                    <div class="menuListVZN-item-info-recipient">
-                        <b>Получатель:</b> Цех 02 / участок Цеха 02
-                    </div>
-                    <div class="menuListVZN-item-info-date">
-                        <b>Дата выдачи</b> 15.06.2024
-                    </div>
-                </div>
-            </div>
-            <div class="menuListVZN-item">
-                <div class="menuListVZN-item-title">ВЗН №132313</div>
-                <div class="menuListVZN-item-info">
-                    <div class="menuListVZN-item-info-sender">
-                        <b>Отправитель:</b> Цех 01 / участок Цеха 01
-                    </div>
-                    <div class="menuListVZN-item-info-recipient">
-                        <b>Получатель:</b> Цех 02 / участок Цеха 02
-                    </div>
-                    <div class="menuListVZN-item-info-date">
-                        <b>Дата выдачи</b> 15.06.2024
-                    </div>
-                </div>
-            </div>
-            <div class="menuListVZN-item">
-                <div class="menuListVZN-item-title">ВЗН №132313</div>
-                <div class="menuListVZN-item-info">
-                    <div class="menuListVZN-item-info-sender">
-                        <b>Отправитель:</b> Цех 01 / участок Цеха 01
-                    </div>
-                    <div class="menuListVZN-item-info-recipient">
-                        <b>Получатель:</b> Цех 02 / участок Цеха 02
-                    </div>
-                    <div class="menuListVZN-item-info-date">
-                        <b>Дата выдачи</b> 15.06.2024
-                    </div>
-                </div>
-            </div>
-            <div class="menuListVZN-item">
-                <div class="menuListVZN-item-title">ВЗН №132313</div>
-                <div class="menuListVZN-item-info">
-                    <div class="menuListVZN-item-info-sender">
-                        <b>Отправитель:</b> Цех 01 / участок Цеха 01
-                    </div>
-                    <div class="menuListVZN-item-info-recipient">
-                        <b>Получатель:</b> Цех 02 / участок Цеха 02
-                    </div>
-                    <div class="menuListVZN-item-info-date">
-                        <b>Дата выдачи</b> 15.06.2024
-                    </div>
-                </div>
-            </div>
-            <div class="menuListVZN-item">
-                <div class="menuListVZN-item-title">ВЗН №132313</div>
-                <div class="menuListVZN-item-info">
-                    <div class="menuListVZN-item-info-sender">
-                        <b>Отправитель:</b> Цех 01 / участок Цеха 01
-                    </div>
-                    <div class="menuListVZN-item-info-recipient">
-                        <b>Получатель:</b> Цех 02 / участок Цеха 02
-                    </div>
-                    <div class="menuListVZN-item-info-date">
-                        <b>Дата выдачи</b> 15.06.2024
-                    </div>
-                </div>
-            </div>
-            <div class="menuListVZN-item">
-                <div class="menuListVZN-item-title">ВЗН №132313</div>
-                <div class="menuListVZN-item-info">
-                    <div class="menuListVZN-item-info-sender">
-                        <b>Отправитель:</b> Цех 01 / участок Цеха 01
-                    </div>
-                    <div class="menuListVZN-item-info-recipient">
-                        <b>Получатель:</b> Цех 02 / участок Цеха 02
-                    </div>
-                    <div class="menuListVZN-item-info-date">
-                        <b>Дата выдачи</b> 15.06.2024
-                    </div>
-                </div>
-            </div>
-            <div class="menuListVZN-item">
-                <div class="menuListVZN-item-title">ВЗН №132313</div>
-                <div class="menuListVZN-item-info">
-                    <div class="menuListVZN-item-info-sender">
-                        <b>Отправитель:</b> Цех 01 / участок Цеха 01
-                    </div>
-                    <div class="menuListVZN-item-info-recipient">
-                        <b>Получатель:</b> Цех 02 / участок Цеха 02
-                    </div>
-                    <div class="menuListVZN-item-info-date">
-                        <b>Дата выдачи</b> 15.06.2024
-                    </div>
-                </div>
-            </div>
-            
+                    <div class="menu-list-item-title">О системе</div>
+                </li>
+            </ul>
         </div>
         <footer class="menu-navFooter">
             <div class="menu-navFooter-item">

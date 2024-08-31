@@ -31,6 +31,7 @@ button{
 .blueButton{
     background-color: var(--primary-main-400);
     color: white;
+    text-decoration: none;
 }
 .disabled{
     opacity: 38%;
@@ -77,6 +78,8 @@ button{
     height: 24px;
 }
 .menu-list-item-title{
+    color: var(--text-black-300);
+    text-decoration: none;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.5px;
