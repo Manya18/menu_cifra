@@ -1,0 +1,57 @@
+.menuFilter-header{
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+    background-color: white;
+    border: 1px solid var(--outline-gray-border-900);
+    padding: 8px;
+}
+.menuFilter-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    flex: 1;
+}
+.menuFilter-inputGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.menuFilter-input{
+    position: relative;
+}
+.menuFilter-input-label{
+    position: absolute;
+    top: -8px;
+    left: 12px;
+    background-color: white;
+    padding: 0 4px;
+    font-size: 12px;
+}
+.menuFilter-input-input{
+    width: 100%;
+    padding: 15px 8px;
+    border: 1px solid var(--outline-gray-border-900);
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+}
+.menuFilter-buttonGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.menuFilter-button{
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    border-radius: 100px;
+}
