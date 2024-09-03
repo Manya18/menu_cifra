@@ -97,6 +97,8 @@ button{
     justify-content: center;
     align-items: center;
     padding: 5px 0;
+    color: var(--text-black-300);
+    text-decoration: none;
 }
 .menu-navFooter-icon{
     width: 32px;

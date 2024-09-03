@@ -11,24 +11,24 @@
 <body>
     <div class="menu">
         <header class="menuFilter-header">
-            <button class="menuFilter-header-closeButton">
+            <a class="menuFilter-header-closeButton" href="./menu-listVZN.html">
                 <img src="../images/close.svg">
-            </button>
+            </a>
             <h1 class="menu-header-title">Фильтр ВЗН УП</h1>
         </header>
         <form id="filters-form" class="menuFilter-wrapper">
             <div class="menuFilter-inputGroup">
                 <div class="menuFilter-input">
-                    <label class="menuFilter-input-label">Номер ВЗН</label>
-                    <input class="menuFilter-input-input" type="text" id="numberVZN">
+                    <label class="menuFilter-input-label" for="numberVZN">Номер ВЗН</label>
+                    <input class="menuFilter-input-input" type="text" name="numberVZN" id="numberVZN">
                 </div>
                 <div class="menuFilter-input">
-                    <label class="menuFilter-input-label">Отправитель</label>
-                    <input class="menuFilter-input-input" type="text" id="sender">
+                    <label class="menuFilter-input-label" for="sender">Отправитель</label>
+                    <input class="menuFilter-input-input" type="text" name="sender" id="sender">
                 </div>
                 <div class="menuFilter-input">
-                    <label class="menuFilter-input-label">Получатель</label>
-                    <input class="menuFilter-input-input" type="text" id='receiver'>
+                    <label class="menuFilter-input-label" for="receiver">Получатель</label>
+                    <input class="menuFilter-input-input" type="text" name="receiver" id='receiver'>
                 </div>
                 <div class="menuFilter-input">
                     <label class="menuFilter-input-label">Дата принятия (период)</label>
@@ -37,16 +37,16 @@
             </div>
             <div class="menuFilter-buttonGroup">
                 <button class="menuFilter-button blueButton" type="submit">Поиск</button>
-                <button class="menuFilter-button outlinedButton">Отмена</button>
+                <a class="menuFilter-button outlinedButton" href="./menu-listVZN.html">Отмена</a>
             </div>
         </form>
         <footer class="menu-navFooter">
-            <div class="menu-navFooter-item">
+            <a class="menu-navFooter-item" href="../index.html">
                 <div class="menu-navFooter-icon">
                     <img src="../images/menu.svg">
                 </div>
                 <div class="menu-navFooter-title">Меню</div>
-            </div>
+            </a>
             <div class="menu-navFooter-item">
                 <div class="menu-navFooter-icon">
                     <img src="../images/scanner.svg">
@@ -61,6 +61,6 @@
             </div>
         </footer>
     </div>
-    <script src="../js/filters.js"></script>
+    <script src="../scripts/filters.js"></script>
 </body>
 </html>
