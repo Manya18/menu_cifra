@@ -23,5 +23,6 @@ document.getElementById('filters-form').addEventListener('submit', function(e) {
         alert('Дата принятия должна быть в формате "dd.mm.yyyy - dd.mm.yyyy".');
         return;
     }
+    alert('Форма заполнена верно');
     document.location.href = '../pages/menu-listVZN.html'
 })
